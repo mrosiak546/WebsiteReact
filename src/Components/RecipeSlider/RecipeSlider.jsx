@@ -2,8 +2,6 @@ import React, { useState } from 'react';
 import './RecipeSlider.css';
 import RightArrow from '../../assets/images/right-arrow.png';
 import LeftArrow from '../../assets/images/backward.png';
-import RecipeData from './RecipeData';
-
 import { BiMoviePlay } from "react-icons/bi";
 import recipeData from './RecipeData';
 
