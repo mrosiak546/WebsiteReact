@@ -1,11 +1,10 @@
 import React from 'react'
-
-//Delete icon
-import { FaTrash } from 'react-icons/fa'
-//Update icon
-import { FaEdit } from 'react-icons/fa'
-//Done icon
-import { FaCheck } from 'react-icons/fa'
+import 
+{ 
+  FaTrash,
+  FaEdit,
+  FaCheck 
+} from 'react-icons/fa'
 
 const ViewNeed = ({todos,handleDelete,handleDone, handleUpdate}) => {
   return (
@@ -22,7 +21,7 @@ const ViewNeed = ({todos,handleDelete,handleDone, handleUpdate}) => {
       </tr>
     </thead>
     <tbody>
-      {todos.map(todo => (
+      {todos && todos.map(todo => (
         <tr key={todo.id}>
           <td>{todo.id.slice(0,8)}</td>
           <td>{todo.name}</td>

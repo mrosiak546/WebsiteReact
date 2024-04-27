@@ -2,10 +2,10 @@ import React from 'react'
 import './ShoppingList.css'
 import { useReducer, useState } from 'react'
 import { reducer, ACTIONS } from './Reducer'
-import ProductInput from './ProductInput'
-import ShoppingHeader from './ShoppingHeader'
-import ViewNeed from './ViewNeed'
-import ViewBought from './ViewBought'
+import ProductInput from './ShoppingListComponents/ProductInput'
+import ShoppingHeader from './ShoppingListComponents/ShoppingHeader'
+import ViewNeed from './ShoppingListComponents/ViewNeed'
+import ViewBought from './ShoppingListComponents/ViewBought'
 
 const ShoppingList = () => {
     const [state, dispatch] = useReducer(reducer, [])

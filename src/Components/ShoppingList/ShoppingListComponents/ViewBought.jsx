@@ -1,5 +1,4 @@
 import React from 'react'
-// Delete icon
 import { FaTrash } from 'react-icons/fa'
 
 

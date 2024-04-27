@@ -28,7 +28,6 @@
     background-color: #fff;
     padding: 20px;
     border-radius: 20px;
-    height: 400px;
     transition: 0.5s;
     display: none;
 }
@@ -40,6 +39,7 @@
 
 .slide-left-section{
     flex-basis: 56%;
+    position: relative;
 }
 
 .slide-left-section img{
@@ -47,6 +47,21 @@
     height: 100%;
     object-fit: cover;
     border-radius: 20px;
+}
+
+.play-icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70px;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    cursor: pointer;
+    color: #fff;
+    padding: 10px;
+
 }
 
 .slide-right-section{
@@ -72,12 +87,13 @@
 
 @media(max-width: 768px){
     .recipe-slider{
-        padding: 0 20px;
+        padding: 0 30px;
     }
 
     .left-arrow-img, .right-arrow-img{
         padding: 10px;
         width: 40px;
+
     }
 
     .slide{
@@ -92,9 +108,7 @@
 
     .slide-left-section img{
         width: 100%;
-        height: 100%;
         border-radius: 20px 20px 0 0;
-
     }
 
     .slide-right-section{
@@ -117,17 +131,17 @@
         margin-right: 20px;
 
     }
-
-    .left-arrow-img, .right-arrow-img{
-        padding: 10px;
-        width: 40px;
-    }
-
     .slide-right-section h3{
         font-size: 1.2rem;
     }
 
     .slide-right-section ul li{
         font-size: 0.8rem;
+    }
+
+    .play-icon{
+        width: 50px;
+        height: 50px;
+        font-size: 1.5rem;
     }
 }

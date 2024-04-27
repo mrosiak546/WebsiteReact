@@ -38,7 +38,7 @@ const Contact = () => {
                 <input type='text' name='name' placeholder='Enter your name' required />
 
                 <label>Phone number</label>
-                <input type='tel'  name='phone' placeholder='Enter your phone number' required />
+                <input type='tel'  name='phone' pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" title="Please enter a valid phone number 123-456-789" placeholder='Enter your phone number' required />
 
                 <label>Write your message</label>
                 <textarea name='message' rows="10" placeholder='Write your message here' required />
