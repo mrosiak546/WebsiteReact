@@ -13,7 +13,9 @@ const recipeData = [
             'Ground Beef',
             'Pepper',
             'Salt',
-            'Oil'
+            'Oil',
+            'Cheese',
+            'Basil',
         ]
     },
     {
@@ -27,7 +29,9 @@ const recipeData = [
             'Water',
             'Tomato Sauce',
             'Cheese',
-            'Pepperoni'
+            'Pepperoni',
+            'Mushrooms',
+            'Bell Pepper',
         ]
     },
     {
@@ -41,7 +45,9 @@ const recipeData = [
             'Garlic',
             'Pepper',
             'Salt',
-            'Cheese'
+            'Cheese',
+            'Basil',
+            'Oregano',
         ]
     },
 ];
