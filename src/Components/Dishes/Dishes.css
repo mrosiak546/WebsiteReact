@@ -46,7 +46,7 @@
 
 @media (max-width: 768px){
     .dishes{
-        flex-direction: column;
+        flex-wrap: wrap;
     }
 
     .dish{

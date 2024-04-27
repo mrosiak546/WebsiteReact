@@ -45,7 +45,7 @@
 
 @media(max-width: 768px){
     .services-container{
-        flex-direction: column;
+        flex-wrap: wrap;
     }
 
     .service-col{
